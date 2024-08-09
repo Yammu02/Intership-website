@@ -1,0 +1,106 @@
+/* Apply CSS based on the classes in Login.js */
+
+.login1 {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  height: 550px;
+  padding: 20px;
+  border: 3px double blue;
+  background-color: #f0f8ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login1 h1 {
+  font-size: 36px;
+  margin-bottom: 0px;
+  color: #333;
+  margin-top: -20px;
+}
+
+.heading1 {
+  font-size: 18px;
+  color:black;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.login1 label {
+  font-size: 16px;
+  color: #333;
+  padding:0px;
+  margin:0px;
+}
+
+.login1 input {
+  padding: 10px;
+  color: black;
+  border: 2px solid cadetblue;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.login1 .link2 {
+  color: blue;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login1 .link2:hover {
+  text-decoration: underline;
+}
+
+.login1 .submit1 {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: darkcyan;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  width:60%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login1 .submit1:hover {
+  background-color: cyan;
+  color:black;
+}
+
+.login1 .p2 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.login1 .signuplink {
+  color:black;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  display:inline;
+  padding:0px;
+  margin:0px;
+  border-color: none;
+  
+}
+.login1 .signuplink:hover {
+  color: black;
+  border: 2px solid black;
+  border:0px;
+  margin:0px;
+  background-color: #f0f8ff;
+  border-color: none;
+
+}
+  .login1 .divider2 {
+    border: 1px solid #333; /* Darker border color */
+    width: 100%;
+    margin: 0;
+    
+  }
+  
